@@ -1,0 +1,9 @@
+# .dockerignore
+__pycache__/       # Exclude Python cache
+*.pyc              # Exclude compiled Python files
+.github              # Exclude Git metadata
+.env               # Exclude environment variables
+*.log              # Exclude log files
+.ipynb_checkpoints/
+.idea/
+.venv-llama-provider/
